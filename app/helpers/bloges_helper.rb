@@ -1,0 +1,2 @@
+module BlogesHelper
+end
