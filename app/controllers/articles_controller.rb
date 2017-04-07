@@ -1,6 +1,6 @@
 
 class ArticlesController < ApplicationController
-	before_action :authenticate_user!
+	before_action :authenticate_user!, except: [:index]
 	
 	http_basic_authenticate_with name: "vijay", password: "12345", except: [:index, :show]
 
