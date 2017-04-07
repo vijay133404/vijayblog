@@ -7,7 +7,13 @@ class HomeController < ApplicationController
 	def aboutus
 		render "home/aboutus"
 
+
 	end
+
+
+	def home
+	end
+	
 
 end
 
